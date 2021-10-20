@@ -1,4 +1,3 @@
-
 import brainlypy
 
 brainlypy.set_lang('pt')
