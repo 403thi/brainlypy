@@ -1,5 +1,5 @@
-# brainlypy
-Library to scrape brainly.com graphql API. 
+# Brainlypy
+Library to scrape brainly.com graphql API.  [PyPi page](https://pypi.org/project/brainlypy/)
 
 ## Requirements
 + Python >= 3.6
