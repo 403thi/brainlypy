@@ -15,7 +15,7 @@ def obter_variaveis_do_obj():
     # ['attachments', 'author', 'author_databaseid', 'content', 'is_best', 'is_confirmed', 'rates_count', 'rating', 'thanks_count']
 
 def exemplo_completo():
-    results = brainlypy.search(query='descubra o valor de x', first=2) # o paramêtro 'first' é para indicar a quantidade de respostas esperadas. Padrão: 1
+    results = brainlypy.search(query='descubra o valor de x', first=2) # o paramêtro 'first' é para indicar a quantidade de questões esperadas. Padrão: 1
     for questao in results.questions:
         print(questao)
         print(f'QUESTÃO: {questao.content}')
